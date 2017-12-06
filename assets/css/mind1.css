@@ -116,8 +116,13 @@
 
 .map button{
 	color: black;
+
 }
 
+.borderTarif{
+	padding-top: 5%;
+	padding-left: 3%;
+}
 
 .map1{	
 	margin-left:25%;
@@ -125,7 +130,9 @@
 	width: 25em;
 	height: 25em;
 	border: 5px solid white;
-	padding: 5%;
+	padding: 1%;
+	margin-bottom: 20%;
+	margin-top: 20%;
 }
 
 .map2{
@@ -134,6 +141,7 @@
 	height: 15em;
 	padding: 4%;
 	margin-left: 8%;
+	margin-bottom: 5%;
 	border:2px solid #FFF;
 }
 
