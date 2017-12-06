@@ -178,7 +178,7 @@ form {
 }
 
 input[type=text], input[type=password] {
-    width: 70%;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -239,4 +239,18 @@ span.psw {
     .cancelbtn {
        width: 100%;
     }
+}
+
+/* MODAL2 REGISTER */
+
+.contTitleModal{
+	border:1px solid black;
+	padding-left: 30%;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-radius: 5px;
+}
+
+.modalTitle2{
+	padding-left: 30%;
 }

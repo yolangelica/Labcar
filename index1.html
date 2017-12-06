@@ -47,7 +47,7 @@
 							    <h1 class="card-title">Disfruta del Viaje</h1>
 							    <h1 class="titleh1">Eres dueño de tu tiempo</h1>
 							    <h4 class="card-text">viaja con <img src="assets/img/logoBlanco.png" alt=""></h4>
-							    <a href="#" class="btn btn-default">REGISTRATE</a>
+							    <a href="#" class="btn btn-default" data-toggle="modal" data-target="#registerModal">REGISTRATE</a>
 							    <p class="pline"><span class="line1">____________</span>o bien<span class="line2">____________</span></p>
 							    <button href="#" class="btn btn-default">Conviértete en un conductor</button>
 								</div>
@@ -210,6 +210,7 @@
           <img src="assets/img/enBadgeWebGeneric.png" class="img-responsive webGeneric">
         </div>
       </div>
+
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <p>&#169; LabCar tecnologies Inc.</p>
@@ -236,7 +237,7 @@
 						  		<div class="imgcontainer">
 						    		<img src="assets/img/img_avatar2.png" alt="Avatar" class="avatar">
 						  		</div>
-									<div class="container">
+									<div class="container-fluid">
 							    		<label><b>Username</b></label>
 							    		<input type="text" placeholder="Enter Username" name="uname" required> <br>
 											<label><b>Password</b></label>
@@ -255,6 +256,97 @@
     				</div>
   				</div>
 			</div>
+		</div>
+
+<!--MODAL REGISTER -->
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="modal fade" id="registerModal" tabindex="-1" role="dialog">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <div class="container-fluid">
+						        	<div class="row">
+						        		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						        			<h4 class="modal-title contTitleModal ">Ya tienes una cuenta?</h4>
+						        			<h5 class="modalTitle2"> O CREA UNA CUENTA NUEVA</h5>
+						        		</div>
+						        	</div>
+						        </div>
+						        <div class="container-fluid">
+						        	<div class="row">
+						        		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						        			<div class="form-group">
+											    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
+											  </div>
+						        		</div>
+						        		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+						        			<div class="form-group">
+											    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Apellido">
+											  </div>
+						        		</div>
+						        	</div>
+						        </div>
+						        <div class="container-fluid">
+						        	<div class="row">
+						        		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						        				<div class="modal-body">
+						       							<form>
+																	  <div class="form-group">
+																	    <input type="password" class="form-control"  placeholder="Correo electronico ejemplo@correo.com">
+																	  </div>
+																	  <div class="form-group">
+																	    <input type="password" class="form-control"  placeholder="Teléfono">
+																	  </div>
+																	  <div class="form-group">
+																	    <input type="password" class="form-control"  placeholder="Contraseña">
+																	  </div>
+																	  <div class="form-group">
+																	    <input type="password" class="form-control"  placeholder="Ciudad">
+																	  </div>
+																	  <div class="form-group">
+																	    <input type="password" class="form-control"  placeholder="(Opcional) Codigo de Ciudad">
+																	  </div>
+																	  <div class="dropdown">
+																			  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+																			    Como te enteraste de Nosotros?
+																			    <span class="caret"></span>
+																			  </button>
+																			  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+																			    <li><a href="#">Internet</a></li>
+																			    <li><a href="#">Redes Sociales</a></li>
+																			    <li><a href="#">Prensa</a></li>
+																			    <li role="separator" class="divider"></li>
+																			    <li><a href="#">Recomendación</a></li>
+																			  </ul>
+																		</div>
+																	  
+																</form>
+						      					</div>
+						        		</div>
+						        		
+						        	</div>
+						        </div>
+						      </div>
+						      
+
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        <button type="button" class="btn btn-primary">Enviar</button>
+						      </div>
+						    </div><!-- /.modal-content -->
+						  </div><!-- /.modal-dialog -->
+						</div><!-- /.modal -->
+
+				</div>
+
+		</div>
+
+
+
+
+
 
 
 
