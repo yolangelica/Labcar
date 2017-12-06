@@ -1,0 +1,173 @@
+.navbar{
+	margin:0;
+}
+
+.row, .col-{
+	margin:0;
+}
+.container-fluid{
+	padding: 0;
+}
+
+.imgTaxi{
+	background-image: url(../img/taxi.jpg);
+	background-size: 100%;
+	background-position: 75% 93%;
+	padding-top:15%;
+	padding-bottom:15% ;
+	padding-right: 0;
+
+}
+
+.cardYellow{
+	background-color: #F7B617;
+	color: #FFF;
+	padding: 3%;
+	
+}
+
+.line1{
+	padding-right: 10%;
+	padding-left: 5%;
+}
+
+.line2{
+	padding-left: 10%;
+	padding-bottom: 8%;
+}
+
+.btn{
+	margin:1em;
+}
+
+/*SECTION 2 : PHONE*/
+.phone{
+	width: 90%;
+}
+.sectionPhone{
+	background-color: #F7B617;
+	color: #FFF;
+}
+.container-fluid{
+	padding-left: 0;
+}
+.borderPhone{
+	border-top: 2px solid white;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding:3%;
+}
+
+.phone2{
+	border:3px solid white;
+	padding: 10%;
+	margin:10% 2%;
+}
+/*SECCION CONDUCTOR*/
+
+.imgConductor{
+	background-image: url(../img/conduce.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:0;
+}
+
+.cardRgb{
+	background-color: rgba(0,0,0,0.6);
+	color: #FFFF;
+	padding: 10em 4em;
+}
+
+.btnYellow{
+	background-color: #F7B617;
+	color:#FFF;
+}
+
+/*SECTION MAPA*/
+
+.map{
+	background-color: #F7B617;
+	color: #fff;
+}
+
+
+
+.input-group-addon{
+	background-color: #F7B617;
+	border:none;
+}
+
+.input-first{
+	background-color: #F7B617;
+	color: #FFF;
+	border:1px solid white;
+
+}
+
+.input-first::placeholder{
+	color: white;
+}
+
+.input-group{
+	padding-bottom: 4%;
+}
+
+.map button{
+	color: black;
+}
+
+
+.map1{	
+	margin-left:25%;
+	margin-top: 10%;
+	width: 25em;
+	height: 25em;
+	border: 5px solid white;
+	padding: 5%;
+}
+
+.map2{
+	
+	width: 85%;
+	height: 15em;
+	padding: 4%;
+	margin-left: 8%;
+	border:2px solid #FFF;
+}
+
+.btn-road{
+	margin-bottom: 4%;
+	margin-left:30%;
+}
+
+.btnBar{
+	float: left;
+	margin-left: 2%;
+}
+
+/*FOOTER*/
+
+footer{
+  background-color:#2b2b2b; 
+  color: #fff;
+}
+.iconos{
+  display: inline-block;
+  list-style: none;
+  margin-right: 3%;
+}
+.icons{
+  padding-top: 55%;
+}
+li{
+  list-style: none;
+}
+.iconos2{
+  display: inline-block;
+}
+
+.webGeneric{
+	margin-top: 5%;
+}
